@@ -1,0 +1,11 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hide-completed .is-completed,
+.hide-todo .todo:not(.is-completed) {
+    display: none!important;
+}
