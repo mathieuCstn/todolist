@@ -29,7 +29,7 @@ export class TodoList {
     appendTo (element) {
         element.innerHTML = `<form class="d-flex pb-4">
             <input required="" class="form-control" type="text" placeholder="Quel est notre mission aujourd'hui ?" name="title" data-com.bitwarden.browser.user-edited="yes">
-            <button class="btn btn-primary">Ajouter</button>
+            <button class="btn btn-primary ms-2">Ajouter</button>
         </form>
         <main>
             <div class="btn-group mb-4" role="group">
